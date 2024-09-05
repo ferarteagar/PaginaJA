@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="main.js"></script>
+    <title>Junior Achievement</title>
+</head>
+<main>
+    <body>
+        <header>
+            <div>
+                <img src="./imagenes/JAArgentina.png" alt="Logo de Junior">
+            </div>
+            <nav>
+                <ul>
+            
+                    <a href="https://junior.org.ar/"><li>HOME</li></a>
+                    <a href="#NOSOTROS"><li>NOSOTROS</li></a>
+                    <a href="https://junior.org.ar/"><li>INSCRIPCIONES</li></a>
+                    <a href="https://junior.org.ar/"> <li>NOVEDADES</li></a>
+                    <a href="https://junior.org.ar/"><li>ALUMNI</li></a>
+                    
+                </ul>
+            </nav>
+        </header>
+        <div class="presentacion">
+            <h2 class="lobster-regular">¿QUIÉNES SOMOS?</h2>
+            <p>Somos una de las ONG más grandes del mundo. A través del aprendizaje activo en educación financiera, preparación para el trabajo y emprendimiento, preparamos a los jóvenes para que sean protagonistas de su futuro.</p>
+        </div>
+        
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/carrusel1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/carrusel2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/carrusel3.png" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+        <div class="contenedor">
+            <div class="caja">
+                <img src="./imagenes/EL DESAFIO.jpg" alt="Desafios de Junior">
+                <h1>EL DESAFÍO</h1>
+                <p>Insertos en la cuarta revolución industrial, la tecnología irrumpe en todos los ámbitos de la vida: aparecen la robótica, la biotecnología, la inteligencia artificial. Desaparecen profesores y surgen nuevas</p>
+            </div>
+            <div class="caja">
+                <img src="./imagenes/LA SOLUCIÓN.jpg" alt="Soluciones JA">
+                <h1>LA SOLUCIÓN</h1>
+                <p>Desde hace 100 años, promovemos una actitud emprendedora en millones de jóvenes para que se sientan protagonistas y emprendedores de sus propias vidas</p>
+            </div>
+            <div class="caja">
+                <img src="./imagenes/IMPACTO.jpg" alt="Impacto JA">
+                <h1>IMPACTO</h1>
+                <p>Trabajamos en cientos de escuelas cada año fomentando a miles de jóvenes para que estén mejor preparados para el futuro</p>
+            </div>
+        </div>
+            <div id="nosotros">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0546816524525!2d-58.46718562452477!3d-34.602778757448135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33533433603c1%3A0x45810ad3a92f29c7!2sJunior%20Achievement%20Argentina!5e0!3m2!1ses!2smx!4v1723908931003!5m2!1ses!2smx" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CAvju4e-EPk?si=h3jIx4FXETwIInHh&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="contenedor1">
+                <div class="noticias">
+                    <h1>3,700 jóvenes aprendieron a programar</h1>
+                    <div id="contenido">
+                        <p>En su cuarto año consecutivo, Yo puedo programar reunió 3,700 estudiantes de 86 escuelas de todo el país. La creatividad y la autonomía digital. Una vez más se cumplio el alcance del objetivo propuesto todos los años.</p>
+                    </div>
+                    <button onclick='muestra_oculta("contenido")'class="btn btn-primary" form="contenido">+</button>
+                </div>
+
+                <div class="noticias">
+                    <h1>Más de 120 docentes se capacitaron en el programa Yo puedo Programar</h1>
+                    <div id="contenido2">
+                        <p>La oprtunidad es enorme: desde cualquier lugar y con cualquier dispositivo podemos acceder a una vasta de Microsoft Americas</p>
+                    </div>
+                    <button onclick='muestra_oculta("contenido2")'class="btn btn-primary" form="contenido2">+</button>
+                </div>
+
+                <div class="noticias">
+                    <h1>Estudiantes entre 14 y 18 años de todo el país participaron del proyecto educativo</h1>
+                    <div id="contenido3">
+                        <p>El programa se dictó en el campus de Ja y tenía una duración estimada de 4 semanas. Los chicos contaron con ágil, dinámica y entretenida, y así desarrollaron habilidades que les sirven para su futuro </p>
+                    </div>
+                    <button onclick='muestra_oculta("contenido3")'class="btn btn-primary" form="contenido3">+</button>
+                </div>
+            </div>    
+</main>                
+    <footer>
+        <p>Conocé nuestra Política de privacidad | ©2022 Junior Achievement Argentina. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

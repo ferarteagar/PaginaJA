@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script defer src="main.js"></script>
+        <title>JA JS</title>
+     
+    </head>
+
+    <body>
+        <div class="containar">
+            <div class="row">
+                <div class="col-md-8 bg-info">
+                   <h1>PROPUESTA EDUCATIVA</h1> 
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/JAArgentina.png" alt="LogoJUNIOR">
+                </div>
+            </div> 
+            
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/carrusel1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/carrusel2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/carrusel3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+            <div class="row">
+                <div class="col-md-4 bg-danger">
+                    <h1>EL DESAFÍO</h1>
+                    <p>Insertos en la cuarta revolución industrial, la tecnología está presente en todos los ámbitos de la vida: aparecen la robótica, la biotecnología, la inteligencia artificial. Desaparecen profesiones y surgen nuevas. 
+
+                    Los jóvenes son especialmente vulnerables. En Argentina, la mitad de los jóvenes no termina el secundario, sólo 3 de cada 10 finaliza la universidad y el desempleo juvenil duplica el promedio nacional. A este contexto se suma un dato preocupante: el 52% de las empresas no encuentra los perfiles que necesita.</p>
+                <img src="./imagenes/EL DESAFIO.jpg" alt="El desafío de JA">
+            </div>
+            <div class="col-md-4 bg-danger">
+                <h1>LA SOLUCIÓN</h1>
+                <p>Desde hace 100 años, promovemos una actitud emprendedora en millones de jóvenes para que se sientan protagonistas y emprendedores de sus propias vidas.  Todas nuestras iniciativas son un puente que conecta a los estudiantes con el mundo del trabajo. 
+
+                    A través de programas presenciales y virtuales basados en la pedagogía de aprender haciendo, con sentido y por proyectos, los jóvenes desarrollan las competencias socioemocionales necesarias para el siglo XXI: pensamiento crítico, creatividad, comunicación, colaboración, iniciativa y liderazgo; con especial hincapié en la promoción de las carreras del futuro vinculadas a las STEM y las habilidades digitales. </p>
+                <img src="./imagenes/LA SOLUCIÓN.jpg" alt="La solución de JA">
+            </div>
+            <div class="col-md-4 bg-danger">
+                <h1>IMPACTO<h1>
+                <p>Trabajamos en cientos de escuelas cada año formando a miles de jóvenes para que estén mejor preparados para el futuro. </p>
+                <img src="./imagenes/IMPACTO.jpg" alt="El impacto de JA">
+            </div>
+        </div>
+        
+        <div class="contenedor">
+            <div class="noticias">
+                <h1>3,700 jóvenes aprendieron a programar</h1>
+                <div id="contenido">
+                    <p>En su cuarto año consecutivo, Yo puedo programar reunió 3,700 estudiantes de 86 escuelas de todo el país. La creatividad y la autonomía digital. Una vez más se cumplio el alcance del objetivo propuesto todos los años.</p>
+                </div>
+                <button onclick='muestra_oculta("contenido")'class="btn btn-primary" form="contenido">+</button>
+            </div>
+
+            <div class="noticias">
+                <h1>Más de 120 docentes se capacitaron en el programa Yo puedo Programar</h1>
+                <div id="contenido2">
+                    <p>La oprtunidad es enorme: desde cualquier lugar y con cualquier dispositivo podemos acceder a una vasta de Microsoft Americas</p>
+                </div>
+                <button onclick='muestra_oculta("contenido2")'class="btn btn-primary" form="contenido2">+</button>
+            </div>
+
+            <div class="noticias">
+                <h1>Estudiantes entre 14 y 18 años de todo el país participaron del proyecto educativo</h1>
+                <div id="contenido3">
+                    <p>El programa se dictó en el campus de Ja y tenía una duración estimada de 4 semanas. Los chicos contaron con ágil, dinámica y entretenida, y así desarrollaron habilidades que les sirven para su futuro </p>
+                </div>
+                <button onclick='muestra_oculta("contenido3")'class="btn btn-primary" form="contenido3">+</button>
+            </div>
+
+            
+
+        </div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
