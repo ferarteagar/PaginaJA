@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(135, 202, 246);
-    width: 100%;
+header {
+    background-color: #004080; /* Azul oscuro */
+    color: #fff;
+    padding: 20px;
 }
+
+header h1 {
+    font-size: 2rem;
+}
+
+header img {
+    width: 80px; /* Tamaño más pequeño */
+    margin-right: 15px;
+}
+
 a{text-decoration: none;}
 header ul{
     list-style: none;
@@ -24,27 +32,28 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 p{
     font-size: 20px;
     color: black;
 }
-.presentacion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.presentacion {
+    max-width: 800px;
+    margin: auto;
     padding: 20px;
-    width: 100%;
-    .lobster-regular {
-        font-family: "Lobster", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      } 
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.presentacion h2{
-    font-size: 35px;
-    color: black;
+
+.presentacion h2 {
+    font-weight: 700;
+    color: #004080;
 }
+
 .presentacion p{
     width: 70%;
     font-size: 30px;
@@ -109,6 +118,32 @@ p{
     padding: 20px;
     background-color: #afdfeb;
 }
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    transition: transform 0.8s ease, opacity 0.8s ease; /* Mejora en la suavidad */
+}
+
+footer {
+    background-color: #004080;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #004080;
+    border-radius: 50%;
+    padding: 10px;
+}
+
 
 .noticias h1 {
     font-size: 18px;
